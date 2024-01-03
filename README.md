@@ -46,24 +46,25 @@ To publish the plugin to your internal Maven repository, execute:
 ## published artifacts:
 The published artifact consist of a marker for the plugin , as well as the packaged plugin artifact
 [YOUR_REPOSITORY_NAME]
-com
-build
-com.example.build.gradle.plugin <--------------------------The marker
-1.0.0
-com.example.build.gradle.plugin.1.0.0.pom
-com.example.build.gradle.plugin.1.0.0.pom.sha512
-maven-metadata.xml
-maven-metadata.xml.sha512
-example-plugin <------------------------------------------- The plugin code
-1.0.0
-example-plugin-1.0.0.jar
-example-plugin-1.0.0.jar.sha512
-example-plugin-1.0.0.module
-example-plugin-1.0.0.module.sha512
-example-plugin-1.0.0.pom
-example-plugin-1.0.0.pom.sha512
-maven-metadata.xml
-maven-metadata.xml.sha512
+
+    com
+        build
+            com.example.build.gradle.plugin <--------------------------The marker
+                1.0.0
+                    com.example.build.gradle.plugin.1.0.0.pom
+                    com.example.build.gradle.plugin.1.0.0.pom.sha512
+                    maven-metadata.xml
+                    maven-metadata.xml.sha512
+            example-plugin <------------------------------------------- The plugin code
+                1.0.0
+                    example-plugin-1.0.0.jar
+                    example-plugin-1.0.0.jar.sha512
+                    example-plugin-1.0.0.module
+                    example-plugin-1.0.0.module.sha512
+                    example-plugin-1.0.0.pom
+                    example-plugin-1.0.0.pom.sha512
+                    maven-metadata.xml
+                    maven-metadata.xml.sha512
 
 
 ## Additional Information
