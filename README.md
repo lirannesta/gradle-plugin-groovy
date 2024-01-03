@@ -90,7 +90,7 @@ settings.gradle:
 build.gradle:
 
     plugins {
-        id 'org.example.greeting' version '1.0-SNAPSHOT'
+        id 'org.example.greeting' version '1.0.0'
     }
 
 Followups:
