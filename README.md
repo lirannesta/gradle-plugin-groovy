@@ -9,12 +9,12 @@ Getting Started
 Clone this repository to your local machine:
 
 ```sh
-git clone https://github.com/your-username/project-name.git
+git clone https://github.com/lirannesta/gradle-plugin-groovy.git
 ```
 Navigate to the project directory:
 
 ```sh
-cd project-name
+cd gradle-plugin-groovy
 ```
 Implementation of the Gradle plugin is in the src/main/groovy directory.
 
